@@ -24,6 +24,6 @@ Check out the latest Sharp3D.Math news at the blog (http://www.ekampf.com/blog/C
 
 The library is used by a software written for Hortilux (www.hortilux.com) who is installing lights in greenhouses and is doing calculations on light level and uniformity before selling to their clients. They can also easily test a reflector in multiple grid configurations automatically and get an overview of its performance.
 
-![image](http://download-codeplex.sec.s-msft.com/Download?ProjectName=Sharp3D&DownloadId=608)
+![image](https://github.com/tengge1/Sharp3D.Math/blob/master/LCWin.gif)
 
 Last edited Dec 8, 2006 at 6:16 AM by codeplexadmin, version 5

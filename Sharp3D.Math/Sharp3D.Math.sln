@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharp3D.Math", "Sharp3D.Math\Sharp3D.Math.csproj", "{F2E09995-2451-417E-B9E7-BDEF4266A5F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharp3D.Math.Tests", "Sharp3D.Math.Tests\Sharp3D.Math.Tests.csproj", "{5CE1D96D-12AD-4B44-893A-7AC6CB77DE04}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2E09995-2451-417E-B9E7-BDEF4266A5F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E09995-2451-417E-B9E7-BDEF4266A5F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E09995-2451-417E-B9E7-BDEF4266A5F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E09995-2451-417E-B9E7-BDEF4266A5F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CE1D96D-12AD-4B44-893A-7AC6CB77DE04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE1D96D-12AD-4B44-893A-7AC6CB77DE04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE1D96D-12AD-4B44-893A-7AC6CB77DE04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE1D96D-12AD-4B44-893A-7AC6CB77DE04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

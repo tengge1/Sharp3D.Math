@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F2E09995-2451-417E-B9E7-BDEF4266A5F9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sharp3D.Math</RootNamespace>
+    <AssemblyName>Sharp3D.Math</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Analysis\Interfaces.cs" />
+    <Compile Include="Analysis\RombergIntegral.cs" />
+    <Compile Include="Analysis\SimpsonIntegral.cs" />
+    <Compile Include="Analysis\TrapezoidIntegral.cs" />
+    <Compile Include="Core\ComplexD.cs" />
+    <Compile Include="Core\ComplexF.cs" />
+    <Compile Include="Core\Interval.cs" />
+    <Compile Include="Core\MathException.cs" />
+    <Compile Include="Core\MathFunctions.cs" />
+    <Compile Include="Core\Matrix2D.cs" />
+    <Compile Include="Core\Matrix2F.cs" />
+    <Compile Include="Core\Matrix3D.cs" />
+    <Compile Include="Core\Matrix3F.cs" />
+    <Compile Include="Core\Matrix4D.cs" />
+    <Compile Include="Core\Matrix4F.cs" />
+    <Compile Include="Core\ParseException.cs" />
+    <Compile Include="Core\Polynomial.cs" />
+    <Compile Include="Core\QuaternionD.cs" />
+    <Compile Include="Core\QuaternionNotInvertibleException.cs" />
+    <Compile Include="Core\Vector2D.cs" />
+    <Compile Include="Core\Vector2F.cs" />
+    <Compile Include="Core\Vector3D.cs" />
+    <Compile Include="Core\Vector3F.cs" />
+    <Compile Include="Core\Vector4D.cs" />
+    <Compile Include="Core\Vector4F.cs" />
+    <Compile Include="Geometry2D\Circle.cs" />
+    <Compile Include="Geometry2D\DistanceMethods.cs" />
+    <Compile Include="Geometry2D\Enums.cs" />
+    <Compile Include="Geometry2D\OrientedBox.cs" />
+    <Compile Include="Geometry2D\Polygon.cs" />
+    <Compile Include="Geometry2D\Ray.cs" />
+    <Compile Include="Geometry2D\Segment.cs" />
+    <Compile Include="Geometry2D\Triangle.cs" />
+    <Compile Include="Geometry3D\Polygon.cs" />
+    <Compile Include="Geometry3D\Ray.cs" />
+    <Compile Include="Geometry3D\Segment.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
